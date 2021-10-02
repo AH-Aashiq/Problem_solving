@@ -113,9 +113,7 @@
 # #      pass
 
 # #Problem 7(Hard): Write a Python fucntion checks whether a string is pangram or not.
-
 # #Note : Pangram are words or sentences containing every letter of the alphabet at least onece. 
-
 # #For example : "The quick brown fox jumps over the lazy dog"
 
 import string
