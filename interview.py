@@ -125,12 +125,24 @@
 
 
 #Find the prime number 
-lower = int(input("Enter the lower value:"))
-upper = int(input("Enter the upper value:"))
-for number in range(lower,upper+1):
-    if number>1:
-        for i in range(2,number):
-            if (number%i)==0:
-                break
-        else:
-            print(number)
+# lower = int(input("Enter the lower value:"))
+# upper = int(input("Enter the upper value:"))
+# for number in range(lower,upper+1):
+#     if number>1:
+#         for i in range(2,number):
+#             if (number%i)==0:
+#                 break
+#         else:
+#             print(number)
+
+
+# for i in range(2,101):
+#     if i < 10 and i == 2 or i == 3 or i == 5 or i == 7:
+#         print(i)
+    
+#     elif not (i%2 and i%3 and i%5 and i%7):
+#         pass
+
+#     else:
+#         print(i)
+
